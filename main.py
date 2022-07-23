@@ -8,7 +8,7 @@ qr = qrcode.QRCode(
     border= 1
 )
 
-qr.add_data('https://docs.google.com/document/d/1ehqSl2sZCrYeX-nAmSbhXsixbCnfhGQnG51ex1xHpyg/edit?usp=sharing')
+qr.add_data('COLOCAR AQUI O QUE VC QUER NO QRCODE, SEJA URL, TEXTO, IMAGEM E AFINS')
 qr.make(fit=True)
 
 img = qr.make_image(fill_color = "black", back_color = "white")
